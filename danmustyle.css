@@ -1,1 +1,60 @@
+/* danmuapp stylesheet */
+/* 1em = 10px */
 
+body {
+  font-size:62.5%;
+}
+
+.btn {
+  background-color:white;
+  border-radius:2px;
+  font-size:1.25em;
+  margin:20px 0px;
+  position:relative;
+  text-align:center;
+}
+
+.btn-fire {
+  border: 1px solid rgb(230, 80, 30);
+  color: rgb(230, 80, 0);
+}
+
+.btn-clean {
+  border: 1px solid rgba(230, 230, 230, 0.7);
+}
+
+.comment {
+  font-size:1.5em;
+  position:absolute;
+}
+
+.danmubox {
+  border:1px solid lightgrey;
+  height:380px;
+  margin-bottom:40px;
+  position:relative;
+  width:100%;
+}
+
+.headline {
+  font-size:1em;
+}
+
+.headline-text {
+  font-family:monospace;
+  font-size:3em;
+  text-align:center;
+}
+
+input {
+  font-size:1.8em;
+  height:20px;
+  margin-right:10px;
+  position:relative;
+  width:auto;
+}
+
+
+.main-content {
+  text-align:center;
+}

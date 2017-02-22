@@ -1,18 +1,39 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <title>huhoodanmupage</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="danmustyle.css">
   </head>
+
+
   <body>
-    <header>
-      <p>准备发射弹幕！</p>
+    <header class="headline">
+      <p class="headline-text">准备发射弹幕！</p>
     </header>
-    <main>
-      <div class="danmubox"></div>
-      <input></input>
-      <lable>发射</lable>
-      <lable>清屏</lable>
-    </main>
+
+    <div>
+      <main class="main-content">
+        <div class="danmubox">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <div class="inputarea">
+          <input type="text" name="input-box"></input>
+          <lable class="comment">请在这里装弹哦~~</lable>
+          <div class="btn">
+            <button class="btn btn-fire">发射</button>
+            <button class="btn btn-clean">清屏</button>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
