@@ -16,15 +16,21 @@ body {
 
 .btn-fire {
   border: 1px solid rgb(230, 80, 30);
+  box-shadow: 1px 2px 1px;
   color: rgb(230, 80, 0);
+  height: 40px;
+  width:109px;
 }
 
 .btn-clean {
-  border: 1px solid rgba(230, 230, 230, 0.7);
+  border: 1px solid rgb(230, 230, 230);
+  box-shadow: 1px 2px 1px;
+  height: 40px;
+  width:109px;
 }
 
 .comment {
-  font-size:1.5em;
+  font-size:1.8em;
   position:absolute;
 }
 
@@ -41,14 +47,15 @@ body {
 }
 
 .headline-text {
+  color:
   font-family:monospace;
   font-size:3em;
   text-align:center;
 }
 
 input {
-  font-size:1.8em;
-  height:20px;
+  font-size:2em;
+  height:30px;
   margin-right:10px;
   position:relative;
   width:auto;
