@@ -16,7 +16,6 @@ body {
 
 .btn-fire {
   border: 1px solid rgb(230, 80, 30);
-  box-shadow:1px 1px 1px;
   color:rgb(230, 80, 0);
   height:40px;
   width:165px;
@@ -24,7 +23,6 @@ body {
 
 .btn-clean {
   border:1px solid rgb(230, 230, 230);
-  box-shadow:1px 1px 1px;
   height:40px;
   width:165px;
 }
@@ -63,4 +61,23 @@ input {
 
 .main-content {
   text-align:center;
+}
+
+.words {
+  color:inherit;
+  font-size:20px;
+  font-style:normal;
+  font-family:monospace;
+  position:absolute;
+  right:10px;
+}
+
+.words:active {
+  color:inherit;
+  font-size:20px;
+  font-style:normal;
+  font-family:monospace;
+  left:10px;
+  position:absolute;
+  visibility:hidden;
 }
