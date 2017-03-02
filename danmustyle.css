@@ -1,9 +1,27 @@
 /* danmuapp stylesheet */
 /* 1em = 10px */
 
+
+/* Animations */
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 100% {
+    opacity: 0;
+  }
+}
+
+/* bady style */
+
 body {
   font-size:62.5%;
 }
+
+
+/* Button style */
 
 .btn {
   background-color:white;
@@ -27,10 +45,10 @@ body {
   width:165px;
 }
 
-.comment {
-  font-size:1.8em;
-  position:absolute;
-}
+
+/* Button style */
+
+
 
 .danmubox {
   border:1px solid lightgrey;
@@ -50,18 +68,28 @@ body {
   text-align:center;
 }
 
+
+/* input style */
+
 input {
   border:1px solid rgb(230, 230, 230);
   border-radius:2px;
   height:30px;
   margin-right:10px;
   width:400px;
+  transition:.3s;
+}
+
+input:hover {
+  border:1px solid rgb(255, 20, 147);
 }
 
 
+/* style the main-content */
 .main-content {
   text-align:center;
 }
+
 
 .words {
   color:inherit;
@@ -72,7 +100,7 @@ input {
   right:10px;
 }
 
-.words:active {
+/* .words:active {
   color:inherit;
   font-size:20px;
   font-style:normal;
@@ -80,4 +108,4 @@ input {
   left:10px;
   position:absolute;
   visibility:hidden;
-}
+} */

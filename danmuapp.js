@@ -5,12 +5,11 @@ $(document).ready(function() {
       alert('请先装弹再发射！');
     } else {
       $('.words').text(inputCon);
-      $('.words:after').css({'visibility':'visible'});
-      //some problem of understanding the pseudo-element and animation
     };
-
-    $('.btn-fire').css({'color': 'darkblue'});
-
   });
 
+  $('.btn-clean').on('click', function() {
+    $('.btn-clean').css({'animation': 'flash .75s'});
+    
+  });
 });
