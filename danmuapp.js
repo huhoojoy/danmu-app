@@ -9,7 +9,6 @@ $(document).ready(function() {
   });
 
   $('.btn-clean').on('click', function() {
-    $('.btn-clean').css({'animation': 'flash .75s'});
-    
+
   });
 });
